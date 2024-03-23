@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
     {
         final String text = ((EditText)findViewById(R.id.editTextText2)).getText().toString();
         Toast toast = Toast.makeText(getApplicationContext(),
-            "СТУДЕНТ № 5 ГРУППА 9 Количество символов - ".concat(String.valueOf(text.length()))
+            "СТУДЕНТ № 4 ГРУППА 9 Количество символов - ".concat(String.valueOf(text.length()))
             , Toast.LENGTH_LONG);
         toast.show();
     }
